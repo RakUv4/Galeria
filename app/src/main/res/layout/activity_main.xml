@@ -6,13 +6,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#9DF5FF">
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/gora1" />
+        android:layout_height="275dp"
+        app:srcCompat="@drawable/gora1"
+        android:layout_marginBottom="10dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,7 +25,9 @@
             android:id="@+id/button4"
             android:layout_width="154dp"
             android:layout_height="59dp"
-            android:text="Wstecz" />
+            android:text="Wstecz"
+            android:backgroundTint="#1B1750"
+            />
 
         <TextView
             android:id="@+id/textView2"
@@ -36,7 +40,8 @@
             android:id="@+id/button5"
             android:layout_width="148dp"
             android:layout_height="59dp"
-            android:text="Dalej" />
+            android:text="Dalej"
+            android:backgroundTint="#1B1750"/>
     </LinearLayout>
 
 </LinearLayout>
